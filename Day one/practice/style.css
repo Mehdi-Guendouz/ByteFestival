@@ -21,12 +21,24 @@ body {
 .nav-container {
   display: flex;
   align-items: center;
+  gap: 100px;
 }
 
 .links-container {
   display: flex;
+  gap: 40px;
 }
 
 li {
-  margin-right: 40px;
+  /* margin-right: 40px; */
+}
+
+@media (max-width: 768px) {
+  .nav-container {
+    background-color: blueviolet;
+  }
+  .header-container {
+    flex-direction: column;
+    background-color: red;
+  }
 }
