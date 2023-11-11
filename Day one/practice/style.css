@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+body {
+  padding: 60px 100px;
+}
+
+.container {
+}
+
+.header-container {
+  display: flex;
+  /* background-color: aqua; */
+  justify-content: space-between;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+}
+
+.links-container {
+  display: flex;
+}
+
+li {
+  margin-right: 40px;
+}
